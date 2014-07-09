@@ -6,9 +6,9 @@
  * Time: 1:41 AM
  */
 $dir    = '/articles';
-articles = scandir($dir);
+$articles = scandir($dir);
 
-print_r(articles);
+print_r($articles);
 ?>
 <html>
 <head>
