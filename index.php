@@ -5,6 +5,10 @@
  * Date: 7/9/14
  * Time: 12:36 AM
  */
+$dir    = '/articles';
+articles = scandir($dir);
+
+print_r(articles);
 ?>
 <html>
 <head>
