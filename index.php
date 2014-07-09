@@ -1,4 +1,4 @@
-<%include 'header.php'%>
+<?php include 'header.php'?>
 <h1>Jamey McElveen</h1>
 <ul>
     <li>Christian</li>
@@ -15,4 +15,4 @@
 <p>
     Import yesterday's blog
 </p>
-<%include 'footer.php'%>
+<?php include 'footer.php'?>
