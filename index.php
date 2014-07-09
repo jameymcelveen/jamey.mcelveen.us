@@ -1,20 +1,4 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: jameymcelveen
- * Date: 7/9/14
- * Time: 12:36 AM
- */
-$dir    = '/articles';
-articles = scandir($dir);
-
-print_r(articles);
-?>
-<html>
-<head>
-    <title>Jamey McElveen</title>
-</head>
-<body>
+<%include 'header.php'%>
 <h1>Jamey McElveen</h1>
 <ul>
     <li>Christian</li>
@@ -31,5 +15,4 @@ print_r(articles);
 <p>
     Import yesterday's blog
 </p>
-</body>
-</html>
+<%include 'footer.php'%>
